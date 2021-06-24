@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400px;
+    line-height: 1.5;
+}
+
+div {
+    display: block;
+}
+
+.container-self {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.data-info-self {
+    width: 95%;
+    margin: 0px auto;
+}
+
+.heading-self {
+    margin: 20px 0;
+}
+
+.row-self {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input {
+    width: 25rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid #dcdde1;
+    padding: 0.6rem;
+}
+
+.btn-create-self {
+    margin-top: 1.3rem;
+    background-color: #ffffff;
+    color: #00a8ff;
+}
+
+.btn-create-self:hover {
+    color: #ffffff;
+    background-color: #00a8ff;
+}
+
+.table-info-self {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table thead {
+    border: 1px solid black;
+}
+
+table th {
+    /* border: 1px solid black; */
+    text-align: left;
+    padding: 2px 10px;
+    
+}
+
+table td {
+    text-align: left;
+    padding: 10px 10px;
+}
+
+.btn-self {    
+    text-decoration: none !important;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    
+}
+
+.btn-edit-self {
+    color: #0000ff;
+    border: 1px solid white;
+}
+
+
+
+.btn-delete-self {
+    color: #ff0000 !important;
+    border: 1px solid #ff0000;
+}
+
+.btn-delete-self:hover {
+    color: white !important;
+    background-color: #ff0000;
+}
+
+.table-info-self table>th>td:last-child {
+    text-align: right;
+}
+
+.btn-outline-success {
+    color: white !important;
+    border-color: white !important;
+}
+
+.btn-outline-success:hover {
+    color: #007bff !important;
+    border-color: #ffffff !important;
+    background-color: #ffffff;
+}
+
+
